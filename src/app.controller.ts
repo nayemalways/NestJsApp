@@ -7,7 +7,7 @@ export class AppController {
 
   @Get()
   getAllUsers() {
-    return "Welcome to the show";
+    return 'Welcome to the show';
   }
 
   @Post()

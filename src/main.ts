@@ -1,6 +1,6 @@
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
-const helmet = require('helmet'); // Security package
+import helmet from 'helmet'; // Security package
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
